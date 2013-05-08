@@ -38,3 +38,6 @@
 /Gemfile.lock
 /Gemfile.local
 
+
+/.idea/
+/repositories/project-m

@@ -1,0 +1,16 @@
+Index: plugins/issue_hot_buttons_plugin/app/views/hot_buttons/_settings.html.erb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- plugins/issue_hot_buttons_plugin/app/views/hot_buttons/_settings.html.erb	(revision )
++++ plugins/issue_hot_buttons_plugin/app/views/hot_buttons/_settings.html.erb	(revision )
+@@ -59,7 +59,7 @@
+       projects:                 <%= raw projects.to_json %>,
+       activities:               <%= raw activities.to_json %>,
+       settings:                 <%= raw @settings.to_json %>,
+-      i18n_strings:             <%= raw i18n_strings[locale][:issue_hot_buttons_plugin].to_json %>
++      i18n_strings:             <%= raw i18n_strings[locale][:issue_hot_buttons].to_json %>
+     };
+   </script>
+ <% end %>
